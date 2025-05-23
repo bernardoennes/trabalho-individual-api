@@ -19,19 +19,19 @@ E coloque "bernardo" tanto no username quando na senha
 
 5. Caso queira popular as tabelas com o intuito de teste segue um simples comando
    ```bash
-   INSERT INTO Funcionario (id, nome, endereco_rua, endereco_cidade, endereco_estado, endereco_cep) VALUES
-   (1, 'João Silva', 'Rua A, 123', 'São Paulo', 'SP', '01000-000'),
-   (2, 'Maria Oliveira', 'Rua B, 456', 'Rio de Janeiro', 'RJ', '20000-000'),
-   (3, 'Carlos Pereira', 'Rua C, 789', 'Belo Horizonte', 'MG', '30000-000'),
-   (4, 'Ana Souza', 'Rua D, 101', 'Porto Alegre', 'RS', '90000-000'),
-   (5, 'Pedro Santos', 'Rua E, 202', 'Curitiba', 'PR', '80000-000'),
-   (6, 'Juliana Costa', 'Rua F, 303', 'Florianópolis', 'SC', '88000-000'),
-   (7, 'Rafael Lima', 'Rua G, 404', 'Salvador', 'BA', '40000-000'),
-   (8, 'Fernanda Almeida', 'Rua H, 505', 'Fortaleza', 'CE', '60000-000'),
-   (9, 'Lucas Rocha', 'Rua I, 606', 'Recife', 'PE', '50000-000'),
-   (10, 'Camila Mendes', 'Rua J, 707', 'Manaus', 'AM', '69000-000'),
-   (11, 'Gabriel Nunes', 'Rua K, 808', 'Brasília', 'DF', '70000-000'),
-   (12, 'Larissa Martins', 'Rua L, 909', 'Goiânia', 'GO', '74000-000'),
-   (13, 'Thiago Barbosa', 'Rua M, 111', 'Natal', 'RN', '59000-000'),
-   (14, 'Beatriz Ribeiro', 'Rua N, 222', 'João Pessoa', 'PB', '58000-000'),
-   (15, 'Renato Carvalho', 'Rua O, 333', 'Maceió', 'AL', '57000-000');
+   INSERT INTO Funcionario (nome, rua, cidade, estado, cep) VALUES
+   ('João Silva', 'Rua A, 123', 'São Paulo', 'SP', '01000-000'),
+   ('Maria Oliveira', 'Rua B, 456', 'Rio de Janeiro', 'RJ', '20000-000'),
+   ('Carlos Pereira', 'Rua C, 789', 'Belo Horizonte', 'MG', '30000-000'),
+   ('Ana Souza', 'Rua D, 101', 'Porto Alegre', 'RS', '90000-000'),
+   ('Pedro Santos', 'Rua E, 202', 'Curitiba', 'PR', '80000-000'),
+   ('Juliana Costa', 'Rua F, 303', 'Florianópolis', 'SC', '88000-000'),
+   ('Rafael Lima', 'Rua G, 404', 'Salvador', 'BA', '40000-000'),
+   ('Fernanda Almeida', 'Rua H, 505', 'Fortaleza', 'CE', '60000-000'),
+   ('Lucas Rocha', 'Rua I, 606', 'Recife', 'PE', '50000-000'),
+   ('Camila Mendes', 'Rua J, 707', 'Manaus', 'AM', '69000-000'),
+   ('Gabriel Nunes', 'Rua K, 808', 'Brasília', 'DF', '70000-000'),
+   ('Larissa Martins', 'Rua L, 909', 'Goiânia', 'GO', '74000-000'),
+   ('Thiago Barbosa', 'Rua M, 111', 'Natal', 'RN', '59000-000'),
+   ('Beatriz Ribeiro', 'Rua N, 222', 'João Pessoa', 'PB', '58000-000'),
+   ('Renato Carvalho', 'Rua O, 333', 'Maceió', 'AL', '57000-000');
